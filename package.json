@@ -1,6 +1,6 @@
 {
     "name": "@anolilab/blitz-webpack-utils",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Webpack utils for Blitz.js",
     "keywords": [
         "anolilab",

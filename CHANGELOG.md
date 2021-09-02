@@ -1,3 +1,10 @@
+### [1.0.4](https://github.com/anolilab/blitz-webpack-utils/compare/v1.0.3...v1.0.4) (2021-09-02)
+
+
+### Bug Fixes
+
+* fixed regex pattern ([860d4e2](https://github.com/anolilab/blitz-webpack-utils/commit/860d4e2aeee401b346af52a1aaf7b3fa27ea3b9a))
+
 ### [1.0.3](https://github.com/anolilab/blitz-webpack-utils/compare/v1.0.2...v1.0.3) (2021-09-02)
 
 
