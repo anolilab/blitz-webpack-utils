@@ -61,6 +61,9 @@ jobs:
             - name: "install"
               run: "yarn install --immutable"
 
+            - name: "build package"
+              run: "yarn build"
+
             - name: "Semantic Release"
               if: "success()"
               env:
