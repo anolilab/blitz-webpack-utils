@@ -1,3 +1,10 @@
+### [1.0.3](https://github.com/anolilab/blitz-webpack-utils/compare/v1.0.2...v1.0.3) (2021-09-02)
+
+
+### Bug Fixes
+
+* added missing build process in semantic-release workflow ([14bd200](https://github.com/anolilab/blitz-webpack-utils/commit/14bd20044c31d534e3466621fa46b24ca91e2886))
+
 ### [1.0.2](https://github.com/anolilab/blitz-webpack-utils/compare/v1.0.1...v1.0.2) (2021-09-02)
 
 
