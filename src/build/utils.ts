@@ -1,10 +1,9 @@
 export const topLevelFoldersThatMayContainFiles = ["src", "app", "integrations"];
 
 export function isFileTypeOf(filePathFromAppRoot: string, type: string) {
-    const pattern1 = "/[\\/]";
-    const pattern2 = "[\\/]/";
+    const pattern = "[\\\\/]";
 
-    return new RegExp(pattern1 + type + pattern2).test(filePathFromAppRoot);
+    return new RegExp(pattern + type + pattern).test(filePathFromAppRoot);
 }
 
 export function buildExtensionRegex(pageExtensions: string[]) {
