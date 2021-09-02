@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/anolilab/blitz-webpack-utils/compare/v1.0.1...v1.0.2) (2021-09-02)
+
+
+### Bug Fixes
+
+* added dist to the npm files ([27ea553](https://github.com/anolilab/blitz-webpack-utils/commit/27ea553ab8de9a814225b38e844879989c45a371))
+
 ### [1.0.1](https://github.com/anolilab/blitz-webpack-utils/compare/v1.0.0...v1.0.1) (2021-09-02)
 
 
