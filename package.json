@@ -32,7 +32,7 @@
     "types": "dist/index.d.ts",
     "files": [
         "src",
-        "build",
+        "dist",
         "README.md",
         "CHANGELOG.md",
         "LICENSE.md"
