@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/anolilab/blitz-webpack-utils/compare/v1.0.0...v1.0.1) (2021-09-02)
+
+
+### Bug Fixes
+
+* added description ([38cbbd8](https://github.com/anolilab/blitz-webpack-utils/commit/38cbbd8a8ceec80e078ccd37ab0ddd4aa0c0fb73))
+
 ## 1.0.0 (2021-09-02)
 
 
