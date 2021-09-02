@@ -1,4 +1,4 @@
-# Webpack utils for BlitzJs
+# Webpack utils for Blitz.js
 
 ---
 

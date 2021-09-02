@@ -114,7 +114,7 @@ repository:
     archived: false
     default_branch: "main"
     delete_branch_on_merge: true
-    description: ""
+    description: "Webpack utils for Blitz.js"
     has_downloads: true
     has_issues: true
     has_pages: false
