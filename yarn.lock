@@ -74,7 +74,7 @@ __metadata:
     "@babel/preset-typescript": ^7.15.0
     "@babel/runtime": ^7.15.3
     "@types/jest": ^27.0.1
-    "@types/node": 16.7.10
+    "@types/node": 16.11.6
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
     cross-env: ^7.0.3
@@ -3835,10 +3835,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:16.7.10":
+"@types/node@npm:*":
   version: 16.7.10
   resolution: "@types/node@npm:16.7.10"
   checksum: 0518803caa1a14f4070e770a280eda1c4b4581a425cbda481cdd54b1f34a7ea497ff067fd23b90e3d4f4fdcfba15c1316182875e9cf9f5b2e880de1e595de053
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:16.11.6":
+  version: 16.11.6
+  resolution: "@types/node@npm:16.11.6"
+  checksum: 6e19634766ff589d3d2f361c2196b671f8f133cdadc5ad347a621c360d8994b6c4fbccfb2ad9c60c588c593831a96497c9c6b77d2b7e91be723384b94f6368e7
   languageName: node
   linkType: hard
 
