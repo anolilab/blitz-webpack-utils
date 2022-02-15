@@ -56,8 +56,8 @@
     },
     "devDependencies": {
         "@anolilab/babel-preset": "^5.0.0",
-        "@anolilab/eslint-config": "^2.1.5",
-        "@anolilab/prettier-config": "^2.0.3",
+        "@anolilab/eslint-config": "^3.0.0",
+        "@anolilab/prettier-config": "^3.0.0",
         "@anolilab/semantic-release-preset": "^2.0.0",
         "@anolilab/textlint-config": "^4.0.0",
         "@babel/core": "^7.15.0",
