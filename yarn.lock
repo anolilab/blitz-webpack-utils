@@ -99,7 +99,7 @@ __metadata:
     eslint: ^8.0.0
     eslint-plugin-jest: ^26.0.0
     eslint-plugin-node: ^11.1.0
-    husky: ^7.0.2
+    husky: ^8.0.0
     jest: ^28.0.0
     jest-mock: ^28.0.0
     lint-staged: ^12.0.0
@@ -10498,12 +10498,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "husky@npm:7.0.2"
+"husky@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "husky@npm:8.0.0"
   bin:
     husky: lib/bin.js
-  checksum: 2ccfe6ddc51dc05ae8ea1e2fbb893344e93a813e00c595d6b5f5e704b7b998d6b0e2adda7c57f99b5e46a60dc07c7d860269a2ea91661c6bacef0eca8e0b8e96
+  checksum: b6b842abdd1bbc9322ad0c2003471fa35f94c9c01fccef3a6b5262f53e3f1bde1d78787f8a96ed8ef8a15ab3a7d56c83f576afd1cf7618588df77940044081df
   languageName: node
   linkType: hard
 
