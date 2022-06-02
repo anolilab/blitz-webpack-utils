@@ -91,7 +91,7 @@ __metadata:
     "@babel/plugin-syntax-jsx": ^7.14.5
     "@babel/preset-typescript": ^7.15.0
     "@babel/runtime": ^7.15.3
-    "@types/jest": ^27.0.1
+    "@types/jest": ^28.0.0
     "@types/node": 16.11.38
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
@@ -5088,13 +5088,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^27.0.1":
-  version: 27.0.1
-  resolution: "@types/jest@npm:27.0.1"
+"@types/jest@npm:^28.0.0":
+  version: 28.1.0
+  resolution: "@types/jest@npm:28.1.0"
   dependencies:
-    jest-diff: ^27.0.0
+    jest-matcher-utils: ^27.0.0
     pretty-format: ^27.0.0
-  checksum: 972aaae341b83eb608970c93295282f1f9edc056dc8123635456cbaced822702673118d60279c7b889300e7c9a0726c3674d701115915e2e1967db09542389c2
+  checksum: be4d887b2452e8c1367cd19b23906ba4b64af95e22ca871f81c7af5e945bd39b370e124086356aa9380c4543123b1387448bc2c00a604c6f0a92bc3e4a24e9ce
   languageName: node
   linkType: hard
 
@@ -8151,10 +8151,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"diff-sequences@npm:^27.0.6":
-  version: 27.0.6
-  resolution: "diff-sequences@npm:27.0.6"
-  checksum: f35ad024d426cd1026d6c98a1f604c41966a0e89712b05a38812fc11e645ff0e915ec17bc8f4b6910fed6df0b309b255aa6c7c77728be452c6dbbfa30aa2067b
+"diff-sequences@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "diff-sequences@npm:27.5.1"
+  checksum: a00db5554c9da7da225db2d2638d85f8e41124eccbd56cbaefb3b276dcbb1c1c2ad851c32defe2055a54a4806f030656cbf6638105fd6ce97bb87b90b32a33ca
   languageName: node
   linkType: hard
 
@@ -11642,15 +11642,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-diff@npm:^27.0.0":
-  version: 27.1.0
-  resolution: "jest-diff@npm:27.1.0"
+"jest-diff@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-diff@npm:27.5.1"
   dependencies:
     chalk: ^4.0.0
-    diff-sequences: ^27.0.6
-    jest-get-type: ^27.0.6
-    pretty-format: ^27.1.0
-  checksum: 8475d6daf0e0ab166a647debd9c6c622e2a79fb0c4c98b1158b87bedf3b118ffbf56004020335dad4f45686667f621f6c102f79d1a3b6a20379c01699b8b3adc
+    diff-sequences: ^27.5.1
+    jest-get-type: ^27.5.1
+    pretty-format: ^27.5.1
+  checksum: 8be27c1e1ee57b2bb2bef9c0b233c19621b4c43d53a3c26e2c00a4e805eb4ea11fe1694a06a9fb0e80ffdcfdc0d2b1cb0b85920b3f5c892327ecd1e7bd96b865
   languageName: node
   linkType: hard
 
@@ -11702,10 +11702,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-get-type@npm:^27.0.6":
-  version: 27.0.6
-  resolution: "jest-get-type@npm:27.0.6"
-  checksum: 2d4c1381bb5ddb212d80ad00497c7cbb3312358e10b62ac19f1fe5a28ae4af709202bfc235b77ec508970b83fd89945937652d636bcaf88614fa00028a6f3138
+"jest-get-type@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-get-type@npm:27.5.1"
+  checksum: 63064ab70195c21007d897c1157bf88ff94a790824a10f8c890392e7d17eda9c3900513cb291ca1c8d5722cad79169764e9a1279f7c8a9c4cd6e9109ff04bbc0
   languageName: node
   linkType: hard
 
@@ -11746,6 +11746,18 @@ __metadata:
     jest-get-type: ^28.0.0
     pretty-format: ^28.0.0
   checksum: 8204a4d94b3b205e2dcc0ccabc03e4e1b9811253adb08b9e925db57a97d8566e72aff091d92546b071dbe1d843a039afd2372745f67bc9cb3f7636509eb247d5
+  languageName: node
+  linkType: hard
+
+"jest-matcher-utils@npm:^27.0.0":
+  version: 27.5.1
+  resolution: "jest-matcher-utils@npm:27.5.1"
+  dependencies:
+    chalk: ^4.0.0
+    jest-diff: ^27.5.1
+    jest-get-type: ^27.5.1
+    pretty-format: ^27.5.1
+  checksum: bb2135fc48889ff3fe73888f6cc7168ddab9de28b51b3148f820c89fdfd2effdcad005f18be67d0b9be80eda208ad47290f62f03d0a33f848db2dd0273c8217a
   languageName: node
   linkType: hard
 
@@ -15526,7 +15538,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-format@npm:^27.0.0, pretty-format@npm:^27.1.0":
+"pretty-format@npm:^27.0.0":
   version: 27.1.0
   resolution: "pretty-format@npm:27.1.0"
   dependencies:
@@ -15538,7 +15550,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-format@npm:^27.0.2":
+"pretty-format@npm:^27.0.2, pretty-format@npm:^27.5.1":
   version: 27.5.1
   resolution: "pretty-format@npm:27.5.1"
   dependencies:
